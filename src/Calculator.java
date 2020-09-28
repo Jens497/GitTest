@@ -31,7 +31,6 @@ public class Calculator {
             System.out.println("Enter Y0 koordinat:");
             double y = scanner.nextInt();
 
-            //double result = (a*x-y+b) / Math.sqrt(1+Math.pow(a,2));//test
             return (double)(a*x-y+b) / Math.sqrt(1+Math.pow(a,2));//test
 
         }
